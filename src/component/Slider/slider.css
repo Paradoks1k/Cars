@@ -1,0 +1,20 @@
+.bgi {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.swiper::after {
+  content: "";
+  background: rgba(21, 21, 21, 0.3);
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.swiper-wraper {
+  background: rgba(21, 21, 21, 0.3);
+}

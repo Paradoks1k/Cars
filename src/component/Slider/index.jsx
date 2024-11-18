@@ -1,4 +1,6 @@
 import React from "react";
+import { ReactComponent as Slide1 } from "../../images/slide.svg";
+import "./slider.css";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -8,7 +10,7 @@ import "swiper/css/scrollbar";
 
 export const Slider = () => {
   return (
-    <div className="slider">
+    <div className="slider ">
       <div className="swiper">
         <div className="swiper-wraper">
           <Swiper
@@ -21,13 +23,9 @@ export const Slider = () => {
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log("slide change")}
           >
-            <SwiperSlide
-              className="h-full "
-              //style={background-image: url(`${../../images/slide-1.jpg}`);}
-            >
-              Slide 1
+            <SwiperSlide className="bgi h-[100vh] w-[100vh] bg-no-repeat bg-cover bg-center ">
+              <Slide1 />
             </SwiperSlide>
-            ...
           </Swiper>
         </div>
       </div>

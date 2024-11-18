@@ -4,7 +4,7 @@ import { Slider } from "../Slider";
 export const MainSection = () => {
   return (
     <div>
-      <div className="top flex grow text-almost-white text-center pt-20 pb-10">
+      <div className="top flex grow text-almost-white text-center pt-40 pb-10 absolute z-10 left-0 right-0">
         <div className="container max-w-screen-lg my-0 mx-auto px-3">
           <h1 className="title pt-24 pb-10 text-center text-8xl font-bold">
             Leasing From D&M

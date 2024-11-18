@@ -4,7 +4,7 @@ import { ReactComponent as GooglePay } from "../../images/Googlepay.svg";
 
 export const Footer = () => {
   return (
-    <div className="container text-almost-white bg-almost-black max-w-screen-lg mt-4 mx-auto pt-12 pb-8">
+    <div className="container text-almost-white bg-almost-black bg-cover max-w-screen-xl  mx-auto pt-12 pb-8">
       <div className="footer__menu flex justify-around mb-12 ">
         <ul className="footer__menu-list max-w-60">
           <li className="menu__footer-item  pt-5">
