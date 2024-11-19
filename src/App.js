@@ -2,6 +2,7 @@ import { Wraper } from "./component/Wraper";
 import { Footer } from "./component/footer";
 import { Header } from "./component/header";
 import { MainSection } from "./component/main-section";
+import { SectionWhyLease } from "./component/sectionWhyLease";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Wraper>
         <Header />
         <MainSection />
+        <SectionWhyLease />
         <Footer />
       </Wraper>
     </div>
