@@ -58,7 +58,7 @@ export const SectionWhyLease = () => {
       <div className="how-does pb-36">
         <div className="container max-w-screen-xl my-0 mx-auto px-3 left-0 right-0">
           <div className="how-does__inner max-w-xl mx-auto">
-            <h2 className="section-title text-2xl font-bold pt-12 ">
+            <h2 className="section-title text-2xl font-bold pt-12 mb-6 ">
               How Does Leasing Work?
             </h2>
             <p className="how-does__text">
@@ -70,7 +70,7 @@ export const SectionWhyLease = () => {
               your lease. Some leases however, do provide the option to purchase
               the vehicle at the end of the lease.
             </p>
-            <h4 className="how-does__title">
+            <h4 className="how-does__title  text-xl font-bold pt-6 mb-4">
               Similar to a short term car rental, there are rules that define:
             </h4>
             <ol className="how-does-list pt-12 pb-16 ">

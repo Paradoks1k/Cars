@@ -1,8 +1,10 @@
 import { Wraper } from "./component/Wraper";
 import { Footer } from "./component/footer";
 import { Header } from "./component/header";
+import { Important } from "./component/important";
 import { MainSection } from "./component/main-section";
 import { SectionWhyLease } from "./component/sectionWhyLease";
+import { VideoSection } from "./component/video";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
         <Header />
         <MainSection />
         <SectionWhyLease />
+        <VideoSection />
+        <Important />
         <Footer />
       </Wraper>
     </div>
