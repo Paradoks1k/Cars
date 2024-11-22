@@ -1,4 +1,5 @@
 import { Wraper } from "./component/Wraper";
+import { ContactUs } from "./component/contact-us";
 import { Footer } from "./component/footer";
 import { Header } from "./component/header";
 import { Important } from "./component/important";
@@ -15,6 +16,7 @@ function App() {
         <SectionWhyLease />
         <VideoSection />
         <Important />
+        <ContactUs />
         <Footer />
       </Wraper>
     </div>

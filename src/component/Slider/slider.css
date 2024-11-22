@@ -1,15 +1,28 @@
 .bgi {
+  background-image: url("../../images/slide.jpg");
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
+  width: 100vh;
+  height: 100vh;
+}
+
+.bgii {
+  background-image: url("../../images/slide2.jpg");
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vh;
+  height: 100vh;
 }
 
 .swiper::after {
   content: "";
   background: rgba(21, 21, 21, 0.3);
   position: absolute;
-  z-index: 5;
+  z-index: 3;
   left: 0;
   top: 0;
   right: 0;

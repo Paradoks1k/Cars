@@ -44,3 +44,14 @@ svg {
 a {
   display: inherit;
 }
+
+.btn {
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  background-color: #151515;
+}
+
+.btn:hover {
+  background-color: #0066ff;
+}

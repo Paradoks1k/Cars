@@ -11,7 +11,7 @@ export const MainSection = () => {
           </h1>
           <a
             href="#"
-            className="top__link bg-almost-black p-6 max-w-md inline-block uppercase text-3xl font-bold  w-full"
+            className="top__link btn bg-almost-black p-6 max-w-md inline-block uppercase text-3xl font-bold  w-full"
           >
             FIND A CAR
           </a>
