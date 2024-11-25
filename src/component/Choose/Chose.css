@@ -1,0 +1,15 @@
+.tabs-btn-item--active {
+  color: #0066ff;
+}
+
+.card-content {
+  padding: 0 5px;
+  border: 1px solid #0066ff;
+}
+
+.card-link {
+  display: block;
+  color: #0066ff;
+  border: 1px solid #0066ff;
+  border-top: 0;
+}

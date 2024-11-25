@@ -1,3 +1,4 @@
+import { Choose } from "./component/Choose/Choose";
 import { Wraper } from "./component/Wraper";
 import { ContactUs } from "./component/contact-us";
 import { Footer } from "./component/footer";
@@ -16,6 +17,7 @@ function App() {
         <SectionWhyLease />
         <VideoSection />
         <Important />
+        <Choose />
         <ContactUs />
         <Footer />
       </Wraper>
