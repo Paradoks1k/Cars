@@ -44,7 +44,6 @@ export const BlogSection = () => {
         >
           SHOW MORE
         </a>
-        a
       </div>
     </div>
   );

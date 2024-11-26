@@ -1,3 +1,13 @@
+.tabs-btn-item {
+  color: black;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  cursor: pointer;
+  border-style: none;
+  background-color: transparent;
+  padding: 0;
+}
 .tabs-btn-item--active {
   color: #0066ff;
 }

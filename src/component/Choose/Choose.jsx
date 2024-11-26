@@ -1,5 +1,6 @@
 import React from "react";
 import "./Chose.css";
+import "./Chose.js";
 import { BlogSection } from "../Blog-section";
 import { ReactComponent as Card1 } from "../../images/card1.svg";
 import { ReactComponent as Card2 } from "../../images/card2.svg";
@@ -15,18 +16,15 @@ export const Choose = () => {
         </h2>
         <div className="tabs">
           <div className="tabs-btn mt-12 px-36 flex justify-between gap-20 pb-24">
-            <button className="tabs-btn-item tabs-btn-item--active text-2xl font-bold cursor-pointer border-none bg-transparent p-0">
+            <button
+              className="tabs-btn-item tabs-btn-item--active  
+            "
+            >
               Car and Minivan
             </button>
-            <button className="tabs-btn-item tabs-btn-item--active text-2xl font-bold cursor-pointer border-none bg-transparent p-0">
-              Trucks
-            </button>
-            <button className="tabs-btn-item tabs-btn-item--active text-2xl font-bold cursor-pointer border-none bg-transparent p-0">
-              Crossovers & SUVs
-            </button>
-            <button className="tabs-btn-item tabs-btn-item--active text-2xl font-bold cursor-pointer border-none bg-transparent p-0">
-              Electrified
-            </button>
+            <button className="tabs-btn-item ">Trucks</button>
+            <button className="tabs-btn-item  ">Crossovers & SUVs</button>
+            <button className="tabs-btn-item  ">Electrified</button>
           </div>
           <div className="tabs-content">
             <div className="tabs-content-item grid grid-cols-4 gap-10 pl-9 s">
@@ -61,7 +59,7 @@ export const Choose = () => {
                 </a>
               </div>
               <div className="car-card text-center max-w-[270px]">
-                <Card3 />
+                <Card2 />
                 <div className="card-content  ">
                   <h4 className="card-title mt-5 text-xl font-bold mb-5 ">
                     Toyota Crown 2023
@@ -123,7 +121,7 @@ export const Choose = () => {
                 </a>
               </div>
               <div className="car-card text-center max-w-[270px]">
-                <Card3 />
+                <Card2 />
                 <div className="card-content  ">
                   <h4 className="card-title mt-5 text-xl font-bold mb-5 ">
                     Toyota Crown 2023
@@ -185,7 +183,7 @@ export const Choose = () => {
                 </a>
               </div>
               <div className="car-card text-center max-w-[270px]">
-                <Card3 />
+                <Card2 />
                 <div className="card-content  ">
                   <h4 className="card-title mt-5 text-xl font-bold mb-5 ">
                     Toyota Crown 2023
@@ -215,13 +213,16 @@ export const Choose = () => {
                 </a>
               </div>
             </div>
+            <div className="tabs-content-item">1</div>
+            <div className="tabs-content-item">2</div>
+            <div className="tabs-content-item">3</div>
           </div>
         </div>
         <a
           className="blog-link btn uppercase w-56 my-0 mx-auto text-center block mt-16 "
           href=""
         >
-          SHOW MORE
+          SHOW MORE{" "}
         </a>
 
         <BlogSection />
